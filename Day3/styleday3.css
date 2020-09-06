@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+.top-bar{
+   width: 100%;
+   height: 60px;
+}
+.bottom{
+    
+    width: 90%;
+    display: flex;   
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.bottom span a {
+     margin: 10px;   
+     line-height: 45px;
+     color: rgb(5, 5, 5);
+     font-weight: lighter ;
+}  
+.bottom span {
+    color:rgb(247, 175, 175);
+}
+.cart{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.bottom a:hover{
+    color:rgb(236, 162, 177);
+}
+  
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color:rgb(253, 203, 211);
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.nav a{
+    margin: auto;
+    padding: 35px;
+    height: 5px;
+}
+a:hover{
+    color:rgb(255, 85, 164);
+}
+.title{
+    width: fit-content ; /*căn chiều rộng phù hợp với nội dung bên trong */
+    /* height: 50px ; */
+    margin: auto;
+
+}
+
+h1{
+    
+    color: rgb(255, 131, 152);
+    height: 70px ;
+    line-height: 60px;
+    margin: auto;
+}
+
+.container-content{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+}
+.item{
+    width: 20%;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.thumbnail{
+    width: 100%; 
+    object-fit: cover; 
+}
+.thumbnail img{
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 15px */
+}
+.img-description{
+    line-height: 20px;
+    padding: 10px;
+    background-color: rgb(250, 223, 236);
+}
+.item:hover .img-description{
+     background-color: rgb(250, 177, 189);
+}
+/* img:hover{
+    border-color: aqua;
+    border-style: outset;
+}    */
+.container{
+    width: 100%;
+    display: block;
+}
+.footer{
+    width: 100%;
+    height:250px;
+    background-color: rgb(192, 191, 191);
+}
+.container-footer{
+    width: 80%;
+}
+.footer-left{
+ width: 40%;
+}
+.footer-logo{
+    width: 50px;
+    height: 20px;;
+}
+#phan-chia{
+    font-size: 33px;
+    align-self: center;
+    /* align-items: center; */
+    margin :0px 10px;
+    color: black;
+}
