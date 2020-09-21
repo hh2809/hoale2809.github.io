@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* start logo-contact */
+
+#container-logo {
+    widows: 100%;
+    /* height: 100px; */
+}
+
+#container-logo img {
+    width: 100%;
+    display: flex;
+}
+
+.logo-center {
+    width: 15%;
+    margin: auto;
+    margin-top: -95px;
+}
+
+.logo-contact {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: -90px 1110px 0px;
+}
+
+.logo-contact p {
+    width: 100%;
+}
+
+.logo-in {
+    width: fit-content;
+    /* height: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-in img {
+    padding: 0px 10px 20px;
+}
+
+
+/* end logo contact */
+
+
+/* start nav */
+
+.nav {
+    width: 100%;
+    /* height: 70px; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
+
+}
+
+.nav a {
+    margin: auto;
+    padding: 35px;
+    height: 5px;
+    color: black;
+    font-family: Helvetica;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+
+/* start intro*/
+#intro {
+    width:100%;
+    /* height: 630px; */
+}
+
+#intro .intro-content {
+
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-content2{
+    display: block;
+    margin: -395px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row-girlpt{
+    width: max-content;
+    padding: 10px 259px 0px;
+    margin: -80px -91px;
+    display: block;
+
+}
+.row-title {
+    display: flex;
+    flex-direction: column;
+    /* margin: -15px 45px */
+
+}   
+
+.row-text {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 243px 0px;
+
+}
+.row-text h1{
+    margin: 23px -244px;
+    color: rgb(118, 75, 187);
+    display: block;
+}
+.row-title p{
+    text-indent: 1.8em;
+    color: rgb(118, 75, 187);
+    font-size: 16px;
+    display: block;
+}
+#product{
+    width: 100%;
+    /* height:800px; */
+    display: block;
+}
+.row-product {
+    width:fit-content;
+    margin: 100px 500px 0px;
+    display: block;
+}
+#product h1 {
+    margin: -60px 110px 45px;
+    color: rgb(118, 75, 187);
+     display: block;
+}
+#product p {
+    color: rgb(118, 75, 187);
+    font-size: 20px;
+    margin: 8px 190px;
+    display: block;
+}
+.tabpanel ul{
+    display:block;
+    width:fit-content;
+    /* height: 40px; */
+    padding: 15px
+}
+.tabpanel ul li {
+    width: fit-content;
+ float: left;
+ margin: 4px 155px 16px;
+ font-size: 30px;
+ font-weight: bold;
+ color: rgb(118, 75, 187);
+ font-style: Helvetica;
+ 
+}
+.tabpanel ul li a {
+    text-decoration: none;
+}
+.tab-content{
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.tab-content .tab-item{
+    margin-bottom: 30px;
+    position: relative;
+    margin: 20px 120px;
+    display: block;
+}
+.tab-detail img{
+    margin: -92px 480px;
+}
+.tab-detail h1 {
+    padding: 70px 460px 0px;
+    display: block;
+    
+}
+#video-container{
+    width: 100%;
+    display: block;
+}
+.vdo-title {
+    
+    margin:-900px 500px 0px;
+    
+}
+
+#video-container h1{
+    margin: -57px 138px 59px
+}
+.video-box{
+    width: 70%;
+    height:500px;
+    background-color: purple;
+    margin: auto;
+}
+#container-price{
+    width: 100%;
+    margin: 140px 0px;
+    display:block;
+}
+.price-title{
+    width: 100%;
+    display:block;
+    padding: 25px 450px;
+}
+.price-title h1 {
+    margin: -66px 100px 40px;
+    font-size: 30px;
+}
+.price-text p {
+    font-size:20px;
+    color: rgb(118, 75, 187);
+}
+.price-table{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.price-table1{
+    margin: 15px 70px;
+    padding: 5px;
+}
+.price-description{
+    background-color: purple;
+    height: 200px;
+}
+.price-table2{
+    margin: 15px 70px;
+    padding: 5px;
+}
+.price-table3{
+    margin: 15px 70px;
+    padding: 5px;
+}
+.container-feedback{
+    width: 100%;
+    display: block;
+}
+.title-feedback{
+    display:flex;
+    flex-direction: column;
+    opacity: 1;
+    align-items:flex-start;
+    
+    margin: auto;
+    margin-top: -800px;
+    padding: 0px 500px;
+}
+.title-feedback h1 {
+    margin: -66px 100px 30px;
+    font-size: 30px;
+}
+.center-feedback{
+    width: 80%;
+    background-color: purple;
+    height: 400px;
+    margin: auto;
+}
+.left-feedback{
+    width: 20%;
+    background-color: pink;
+    height: 200px;
+    margin: 40px 30px 20px;
+    display: block;
+}
+.container-blog{
+    width: 100%;
+    margin: 250px 0px;
+}
+.container-blog h1 {
+    margin: -66px 130px 40px;
+    font-size: 30px;
+}
+.title-blog{
+    width: 100%;
+    margin: auto;
+    padding: 0px 500px;
+    display: block;
+}
+    
+.title-blog p {
+    width: 100%;
+    padding: 10px;
+}
+p {
+    color: rgb(118, 75, 187);
+    font-size: 18px;
+}
+h1 {
+    color: rgb(118, 75, 187);
+}
+.content-blog{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+}
+.tip-blog{
+    width: 90%;
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+    margin-left: 160px;
+}
+
+.tip-box{
+    width: 50%;
+    height: 200px;
+    background-color: purple;
+    text-align:center !important;
+}
+.pr-blog{
+    width: 90%;
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+}
+.pr-box{
+    width: 50%;
+    height: 200px;
+    background-color: purple;
+    display: block;
+}
+.br-blog{
+    width: 90%;
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+    padding: 0px 10px;
+}
+.br-box{
+    width: 50%;
+    height: 200px;
+    background-color: purple;
+    display: block;
+}
+h2 {
+    color: rgb(118, 75, 187);
+}
+#footer {
+    width: 100%;
+    background-image: url("./image/lien-he/background.png");
+    height: 250px;
+    display:flex;
+    flex-direction: row;
+}
+.footer-left{
+    width: 50%;
+    margin-left: 45px;
+    border-bottom: 2px solid black ;
+   
+
+}
+.footer-bottom a {
+    font-size:35px;
+    text-decoration: none;
+    color: black;
+    padding: 0px 5px;
+
+}
+#footer .footer-left h1 {
+    width: 50%;
+    padding: 20px 2px 0px;
+    font-size: 20px;
+    
+}
+.footer-bottom{
+    width: 100%;
+    margin-left: 45px;
+}
+
+#footer .container-left{
+    display: flex;
+    flex-direction:column;
+}
+.container-right{
+    margin-left: 350px;
+    display: flex;
+    flex-direction:column;
+}
+.container-bottom{
+    background-color: purple;
+    width:20%;
+    padding: 10px;
+    height: 200px;
+    margin: auto;
+}
